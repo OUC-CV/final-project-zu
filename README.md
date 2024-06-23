@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/8oH8aWc3)
 # High Dynamic Range Image Reconstruction from Single LDR Image
-
+若公式没有正确显示，可以下载到本地，使用vscode下载markdown插件进行预览
 ## 项目概况
 **组员分工**：
 ||胡俊敏|赖俊霖|习程一|
