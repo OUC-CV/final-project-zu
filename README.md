@@ -120,6 +120,7 @@ $$ln E_i = \frac{\sum_{j=1}^{N} w(Z_{ij}) \cdot (g(Z_{ij}) - \ln t_j)}{\sum_{j=1
 
 ### 3.2.5 合成方法
 为了合成PartⅠ中生成的多张不同曝光图片，采用可微分HDRI合成方法，即给定不同曝光的LDR图像，估计CRF或逆CRF被建模为最小二乘问题，如下所示：
+
 $$
 O = \sum_{i} \sum_{j} [g(Z_{ij}) - \ln E_{i} + EV_{j}]^{2} + \lambda \sum_{z=Z_{min}+1}^{Z_{max}-1} g''(z)^{2}
 $$
